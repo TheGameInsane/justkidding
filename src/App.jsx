@@ -18,10 +18,10 @@ const App = () => {
 
     tl.fromTo('#title', {
       x: -100,
-      opacity: 0
+      autoAlpha: 0
     }, {
       x: 0,
-      opacity: 1,
+      autoAlpha: 1,
       skewX: -15,
       ease: "bounce.out",
       duration: 1
@@ -33,10 +33,10 @@ const App = () => {
       delay: 1
     })
     tl.fromTo('#cats', {
-      opacity: 0,
+      autoAlpha: 0,
       y: 100
     }, {
-      opacity: 1,
+      autoAlpha: 1,
       y: 0,
       ease: 'power1.in'
     })
